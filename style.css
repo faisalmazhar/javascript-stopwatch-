@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fea600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1,h2,span {
+    padding: 5px 0;
+    font-family: 'Gentium Plus', serif;
+    font-weight: bold;
+}
+.digit {
+    font-size: 150px;
+}
+.btn {
+    background-color: transparent;
+    border: 3px solid #fff;
+    padding: 10px 75px;
+    font-size: 36px;
+    margin: 50px 15px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
